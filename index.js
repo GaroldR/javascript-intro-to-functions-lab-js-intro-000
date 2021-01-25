@@ -3,21 +3,14 @@ function whisper(string) { return string.toLowerCase() }
 function logShout(string) {console.log(string.toUpperCase());}
 function logWhisper(string) {console.log(string.toLowerCase());}
 
-SayHighToGrandma(aWard) {
-var cantHear = "I can't hear you!";
-var hearYou = "YES INDEED!";
-var isLove = "I love you, too.";
-
- if aWard.toLowerCase(aWard) === aWard
-{
-  return cantHear;
-}
-else if aWard.toUpperCase(aWard) === aWard
-{
-  return hearYou;
-}
-  else if ("I love you, Grandma." === "aWard" )
-  {
-    return isLove;
-  }
+function sayHiToGrandma(string) {
+    if (string.toLowerCase() === string) {
+      return 'I can\'t hear you!';
+    }
+    if (string.toUpperCase() === string) {
+      return 'YES INDEED!';
+    }
+    if (string === 'I love you, Grandma.') {
+      return 'I love you, too.';
+    }
 }
