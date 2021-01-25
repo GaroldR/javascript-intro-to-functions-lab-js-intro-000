@@ -8,15 +8,15 @@ var cantHear = "I can't hear you!";
 var hearYou = "YES INDEED!";
 var isLove = "I love you, too.";
 
- if aWard.toLowerCase() === aWard
+ if aWard.toLowerCase(aWard) === aWard
 {
   return cantHear;
 }
-else if aWard.toUpperCase() === aWard
+else if aWard.toUpperCase(aWard) === aWard
 {
   return hearYou;
 }
-  else if ("I love you, Grandma." === aWard )
+  else if ("I love you, Grandma." === "aWard" )
   {
     return isLove;
   }
