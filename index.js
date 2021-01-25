@@ -8,8 +8,7 @@ var cantHear = "I can't hear you!";
 var hearYou = "YES INDEED!";
 var isLove = "I love you, too.";
 
-
- if (string.toLowerCase())
+ if lowercase.toLowerCase() === lowercase
 {
   return cantHear;
 }
