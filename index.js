@@ -3,7 +3,7 @@ function whisper(string) { return string.toLowerCase() }
 function logShout(string) {console.log(string.toUpperCase());}
 function logWhisper(string) {console.log(string.toLowerCase());}
 
-SayHighToGrandma(string) {
+SayHighToGrandma() {
 var cantHear = "I can't hear you!";
 var hearYou = "YES INDEED!";
 var isLove = "I love you, too.";
@@ -12,7 +12,7 @@ var isLove = "I love you, too.";
 {
   return cantHear;
 }
-else if (string.toUpperCase())
+else if uppercase.toUpperCase() === uppercase
 {
   return hearYou;
 }
