@@ -3,20 +3,20 @@ function whisper(string) { return string.toLowerCase() }
 function logShout(string) {console.log(string.toUpperCase());}
 function logWhisper(string) {console.log(string.toLowerCase());}
 
-SayHighToGrandma() {
+SayHighToGrandma(aWard) {
 var cantHear = "I can't hear you!";
 var hearYou = "YES INDEED!";
 var isLove = "I love you, too.";
 
- if lowercase.toLowerCase() === lowercase
+ if aWard.toLowerCase() === aWard
 {
   return cantHear;
 }
-else if uppercase.toUpperCase() === uppercase
+else if aWard.toUpperCase() === aWard
 {
   return hearYou;
 }
-  else if ("I love you, Grandma.")
+  else if ("I love you, Grandma." === aWard )
   {
     return isLove;
   }
